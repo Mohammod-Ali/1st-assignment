@@ -1,5 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0%;
 }
 .header {
   padding: 2px;
@@ -41,6 +43,8 @@ h1 {
 }
 .text-size {
   font-size: 12px;
+ color: #828282;
+
 }
 .text-cntr {
   text-align: center;
@@ -54,7 +58,8 @@ h1 {
 }
 .button {
   text-decoration: none;
-  background-image: linear-gradient(tomato, orange);
+  background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+
   border-radius: 50px;
   color: white;
   padding: 8px 15px;
@@ -62,9 +67,15 @@ h1 {
 }
 .top-banner {
   background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .midle-banner {
   background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .recipe-item {
   width: 30%;
@@ -72,7 +83,7 @@ h1 {
   margin-right: 5%;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 10px 10px 40px gray;
+  box-shadow: 0px 0px 10px #dadada;
 }
 .recipe-item img {
   width: 100%;
